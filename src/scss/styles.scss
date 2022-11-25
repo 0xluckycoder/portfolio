@@ -1,0 +1,151 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar {
+    background: #ffffffe0 !important;
+}
+
+.introduction {
+    padding-top: 2rem;
+    .banner-text {
+        h1 {
+            font-size: 4rem;
+        }
+
+        .typed {
+            font-size: 2.5rem;
+            height: 63.84px;
+        }
+    }
+}
+
+.about {
+    margin-top: 12.5rem;
+
+    .heading {
+        h1 {
+            width: 116px;
+        }
+    }
+    .about-content {
+        max-width: 475px;
+    }
+}
+
+.projects {
+    margin-top: 12.5rem;
+
+    .project-content {
+        margin-top: 5rem;
+
+        .text {
+            width: 446px;
+        }
+    }
+
+    .heading {
+        h1 {
+            width: 149px;
+        }
+    }
+}
+
+.skills {
+    margin-top: 12.5rem;
+
+    .skills-content {
+        margin-top: 5rem;
+    }
+}
+
+.contact-me {
+    margin-top: 12.5rem;
+
+    .skills-content {
+        margin-top: 5rem;
+    }   
+}
+
+.copyrights {
+    background-color: #212529;
+    color: #fff;
+    margin-top: 12.5rem;
+
+    p {
+        margin-bottom: 0px;
+    }
+}
+
+.heading {
+
+    h1 {
+        font-size: 2.5rem;
+        margin: auto;
+        font-weight: 700;
+        background: linear-gradient(90deg, #0582EF 0%, #00D3DB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    p {
+        margin: auto;
+        max-width: 336px;
+        color: #666;
+    }
+}
+
+@media (max-width: 992px) {
+    .introduction {
+        // height: calc(100%) !important;
+        .col-lg-6 {
+            text-align: center;
+            justify-content: center !important;
+        }
+
+        .banner-image {
+            img {
+                height: 400px;
+            }
+        }
+    }
+
+    .projects {
+        .row {
+            text-align: center;
+            justify-content: center;
+            gap: 2rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    .introduction {
+        .banner-image {
+            img {
+                height: 300px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    .about {
+        .about-content {
+            width: auto;
+        }
+    }
+}
