@@ -46,6 +46,25 @@ a {
     .project-content {
         margin-top: 5rem;
 
+        .row {
+
+            justify-content: center;
+
+            &:not(:first-child) {
+                margin-top: 5rem;
+            }
+
+            img {
+                height: auto;
+                width: 445px;
+            }
+        }
+
+        // .video-1 {
+        //     width: 445px;
+        //     height: 304px;
+        // }
+
         .text {
             width: 446px;
         }
@@ -61,6 +80,12 @@ a {
 .skills {
     margin-top: 12.5rem;
 
+    .heading {
+        h1 {
+            width: 120px;
+        }
+    }
+
     .skills-content {
         margin-top: 5rem;
     }
@@ -68,6 +93,12 @@ a {
 
 .contact-me {
     margin-top: 12.5rem;
+
+    .heading {
+        h1 {
+            width: 220px;
+        }
+    }
 
     .skills-content {
         margin-top: 5rem;
@@ -125,7 +156,7 @@ a {
             justify-content: center;
             gap: 2rem;
             img {
-                width: 100%;
+                width: 100% !important;
             }
         }
     }

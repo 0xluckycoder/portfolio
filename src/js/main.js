@@ -9,7 +9,7 @@ import '../scss/styles.scss';
 // initialize type writer effect
 const typed = new Typed('.typed', {
     strings: ["Digital Craftsman", "Programmer", "UI/UX Designer"],
-    typeSpeed: 100,
+    typeSpeed: 70,
     loop: true,
     showCursor: false,
 });
