@@ -100,8 +100,13 @@ a {
         }
     }
 
-    .skills-content {
+    .contact-content {
         margin-top: 5rem;
+        margin-top: 5rem;
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }   
 }
 
